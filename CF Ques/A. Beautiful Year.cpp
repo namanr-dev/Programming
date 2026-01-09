@@ -36,7 +36,6 @@ bool hasDistinctDigits(int year) {
     }
     return true;
 }
-
 int main() {
     int y;
     cin >> y;
