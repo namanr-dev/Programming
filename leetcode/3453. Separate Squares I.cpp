@@ -46,6 +46,7 @@ class Solution {
             }
         return make_pair(areaAbove, areaBelow);
         
+        
     }
 public:
     double separateSquares(vector<vector<int>>& squares) {
