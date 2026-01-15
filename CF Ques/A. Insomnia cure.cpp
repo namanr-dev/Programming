@@ -13,6 +13,8 @@ int main() {
         }
     }
 
+
+    
     cout << damaged << endl;
     return 0;
 }
