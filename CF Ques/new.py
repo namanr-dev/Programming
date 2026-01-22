@@ -10,5 +10,6 @@ def any():
     for i in w:
         if len(i)<4:
             count=count+1
+            
     print("the no of words more than 4 character are",count)
 any()
