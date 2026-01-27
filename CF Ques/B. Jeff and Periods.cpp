@@ -12,7 +12,7 @@ int main() {
     for (int i = 1; i <= n; i++) {
         int x;
         cin >> x;
-        pos[x].push_back(i);
+        pos[x].push_back(i); 
     }
 
     vector<pair<int, int>> ans;
