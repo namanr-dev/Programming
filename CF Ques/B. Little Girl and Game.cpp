@@ -5,7 +5,6 @@ int main() {
     cin >> s;
     vector<int> freq(26, 0);
     for (char c : s) freq[c - 'a']++;
-
     int odd = 0;
     for (int f : freq) {
         if (f % 2 == 1) odd++;
